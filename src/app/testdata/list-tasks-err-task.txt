@@ -1,0 +1,7 @@
+
+playbook: playbooks/demo/playbook_demo.yml
+
+  play #1 (demo): Play	TAGS: []
+    tasks:
+      Task 1.1 Error	TAGS_: []
+      Task 1.2	TAGS: []

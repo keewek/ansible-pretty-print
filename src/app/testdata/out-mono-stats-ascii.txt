@@ -1,0 +1,14 @@
++------------------------------------------------------------------------------------------------------------------------------------+
+|       LongestPlayDescription: play #3 (demo): very long: play name. Very long play name. Very long play name. Very long play name. |
+| LongestPlayDescriptionLength: 100                                                                                                  |
+|              LongestPlayTags: []                                                                                                   |
+|        LongestPlayTagsLength: 2                                                                                                    |
+|             LongestTaskBlock: Проверка Тест Проверка Тест                                                                          |
+|       LongestTaskBlockLength: 27                                                                                                   |
+|              LongestTaskName: Assemble and validate /etc/ssh/sshd_config.d/00-custom.conf                                          |
+|        LongestTaskNameLength: 59                                                                                                   |
+|       LongestTaskDescription: Проверка Тест Проверка Тест: Проверка Тест Проверка Тест Проверка Тест                               |
+| LongestTaskDescriptionLength: 70                                                                                                   |
+|              LongestTaskTags: [wireguard, wireguard-template-config]                                                               |
+|        LongestTaskTagsLength: 38                                                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------+

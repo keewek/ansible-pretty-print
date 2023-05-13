@@ -1,0 +1,8 @@
+
+playbook: playbooks/demo/playbook_demo.yml
+
+  play #1 (demo): Stats	TAGS: []
+    tasks:
+      Task 1.1: ABC	TAGS: []
+      Task 1.2: АБВ	TAGS: []
+      Task 1.3: 你好	TAGS: []

@@ -1,0 +1,68 @@
+
+playbook: playbooks/demo/playbook_demo.yml
+
+  play #1 (demo): Demo play    TAGS: []
+    tasks:
+      ┌─────────────────────────────┬───────────────────────────────────┬──────┐
+      │ Block                       │ Name                              │ Tags │
+      ├─────────────────────────────┼───────────────────────────────────┼──────┤
+      │ Проверка Тест Проверка Тест │ Проверка Тест Проверка Тест Пров▒ │ [Ru▒ │
+      │                    你好世界 │ 你好世界                          │ [Ch▒ │
+      │                             │ 你好世界                          │ [Ch▒ │
+      │              こんにちは世界 │ こんにちは世界                    │ [Ja▒ │
+      │                             │ こんにちは世界                    │ [Ja▒ │
+      │                             │ Gather the package facts          │ [ap▒ │
+      │                             │ Print local facts                 │ [va▒ │
+      │                             │ Debug vars                        │ [va▒ │
+      │                         apt │ Copy 'apt_bootstrap.sh'           │ [bo▒ │
+      │                       users │ Ensure user 'vpsadmin' exists     │ [bo▒ │
+      │                       users │ Set exclusive authorized key for▒ │ [au▒ │
+      │                       users │ Set exclusive authorized key for▒ │ [au▒ │
+      │                        sshd │ Ensure '/etc/ssh/conf.d' directo▒ │ [bo▒ │
+      │                        sshd │ Common options                    │ [bo▒ │
+      │                        sshd │ Listen on Port {{ sshd_default_p▒ │ [bo▒ │
+      │                        sshd │ Listen on Port {{ sshd_custom_po▒ │ [bo▒ │
+      │                        sshd │ Assemble and validate /etc/ssh/s▒ │ [bo▒ │
+      │                    journald │ Ensure '{{ task_config_dir_path ▒ │ [jo▒ │
+      │                    journald │ Configure                         │ [jo▒ │
+      │                     facts.d │ Ensure '/etc/ansible/facts.d' di▒ │ [fa▒ │
+      │                     facts.d │ Ensure '/etc/ansible/facts.d/con▒ │ [fa▒ │
+      │                         ufw │ Active options                    │ [uf▒ │
+      │                         ufw │ IPv6 support                      │ [uf▒ │
+      │                         ufw │ Allow ssh to port {{ sshd_custom▒ │ [uf▒ │
+      │                         ufw │ Allow ssh to port {{ sshd_defaul▒ │ [uf▒ │
+      │                         ufw │ Allow WWW(80, 443)                │ [uf▒ │
+      │                         ufw │ Allow WireGuard to port {{ wireg▒ │ [uf▒ │
+      │                         ufw │ Allow WireGuard - WWW(80, 443/tc▒ │ [uf▒ │
+      │                         ufw │ Set logging                       │ [uf▒ │
+      │                         ufw │ Enable                            │ [uf▒ │
+      │                         apt │ Check for required packages       │ [ap▒ │
+      │                         apt │ Print check result on failure     │ [ap▒ │
+      │                         apt │ Install required packages         │ [ap▒ │
+      │            systemctl_status │ Validating arguments against arg▒ │ [al▒ │
+      │            systemctl_status │ Asserting arguments               │ [se▒ │
+      │            systemctl_status │ Execute command                   │ [se▒ │
+      │            systemctl_status │ Parse stdout                      │ [se▒ │
+      │                             │ Print systemctl_status_services   │ [se▒ │
+      │                   wireguard │ Active options                    │ [wi▒ │
+      │                   wireguard │ Template 'wg0.conf' config file   │ [wi▒ │
+      │                   wireguard │ Ensure service is {{ unit_state ▒ │ [wi▒ │
+      └─────────────────────────────┴───────────────────────────────────┴──────┘
+
+  play #2 (demo): Demo 2    TAGS: []
+    tasks:
+      ┌─────────────────────────────┬───────────────────────────────────┬──────┐
+      │ Block                       │ Name                              │ Tags │
+      ├─────────────────────────────┼───────────────────────────────────┼──────┤
+      │                             │ Task 2.1                          │ []   │
+      │                             │ Task 2.2                          │ []   │
+      └─────────────────────────────┴───────────────────────────────────┴──────┘
+
+  play #3 (demo): very long: play name. Very long play name. Very long play nam▒
+    tasks:
+      ┌─────────────────────────────┬───────────────────────────────────┬──────┐
+      │ Block                       │ Name                              │ Tags │
+      ├─────────────────────────────┼───────────────────────────────────┼──────┤
+      │                             │ Task 3.1                          │ []   │
+      │                             │ Task 3.2                          │ []   │
+      └─────────────────────────────┴───────────────────────────────────┴──────┘

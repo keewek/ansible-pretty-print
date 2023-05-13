@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ansible-pretty-print
+Upstream-Contact: Alexander Bugrov <abugrov+dev@gmail.com>
+Source: https://github.com/keewek/ansible-pretty-print
+
+Files:
+    assets/*
+    src/app/version.txt
+    src/app/testdata/*
+    src/ui/testdata/*
+    .gitattributes
+    .gitignore
+    CHANGELOG.md
+    README.md
+    go.mod
+    go.sum
+    Makefile
+Copyright: 2023 Alexander Bugrov <abugrov+dev@gmail.com>
+License: MIT

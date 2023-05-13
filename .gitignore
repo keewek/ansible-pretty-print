@@ -1,0 +1,6 @@
+.DS_Store
+*.exe
+*.out
+bin/
+dist/
+tmp/

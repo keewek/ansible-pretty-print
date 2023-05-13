@@ -1,0 +1,56 @@
+                                                                               ▒
+playbook: playbooks/demo/playbook_demo.yml                                     ▒
+                                                                               ▒
+  play #1 (demo): Demo play                                                    ▒
+    tasks:                                                                     ▒
+      Проверка Тест Проверка Тест: Проверка Тест Проверка Тест Проверка Тест   ▒
+                             你好世界: 你好世界                                        ▒
+                                 : 你好世界                                        ▒
+                          こんにちは世界: こんにちは世界                                     ▒
+                                 : こんにちは世界                                     ▒
+                                 : Gather the package facts                    ▒
+                                 : Print local facts                           ▒
+                                 : Debug vars                                  ▒
+                              apt: Copy 'apt_bootstrap.sh'                     ▒
+                            users: Ensure user 'vpsadmin' exists               ▒
+                            users: Set exclusive authorized key for 'root'     ▒
+                            users: Set exclusive authorized key for 'vpsadmin' ▒
+                             sshd: Ensure '/etc/ssh/conf.d' directory exists   ▒
+                             sshd: Common options                              ▒
+                             sshd: Listen on Port {{ sshd_default_port }}      ▒
+                             sshd: Listen on Port {{ sshd_custom_port }}       ▒
+                             sshd: Assemble and validate /etc/ssh/sshd_config.d▒
+                         journald: Ensure '{{ task_config_dir_path }}' director▒
+                         journald: Configure                                   ▒
+                          facts.d: Ensure '/etc/ansible/facts.d' directory exis▒
+                          facts.d: Ensure '/etc/ansible/facts.d/config.fact' ex▒
+                              ufw: Active options                              ▒
+                              ufw: IPv6 support                                ▒
+                              ufw: Allow ssh to port {{ sshd_custom_port }}    ▒
+                              ufw: Allow ssh to port {{ sshd_default_port }}   ▒
+                              ufw: Allow WWW(80, 443)                          ▒
+                              ufw: Allow WireGuard to port {{ wireguard_port }}▒
+                              ufw: Allow WireGuard - WWW(80, 443/tcp)          ▒
+                              ufw: Set logging                                 ▒
+                              ufw: Enable                                      ▒
+                              apt: Check for required packages                 ▒
+                              apt: Print check result on failure               ▒
+                              apt: Install required packages                   ▒
+                 systemctl_status: Validating arguments against arg spec 'main'▒
+                 systemctl_status: Asserting arguments                         ▒
+                 systemctl_status: Execute command                             ▒
+                 systemctl_status: Parse stdout                                ▒
+                                 : Print systemctl_status_services             ▒
+                        wireguard: Active options                              ▒
+                        wireguard: Template 'wg0.conf' config file             ▒
+                        wireguard: Ensure service is {{ unit_state }} and {{ se▒
+                                                                               ▒
+  play #2 (demo): Demo 2                                                       ▒
+    tasks:                                                                     ▒
+                                 : Task 2.1                                    ▒
+                                 : Task 2.2                                    ▒
+                                                                               ▒
+  play #3 (demo): very long: play name. Very long play name. Very long play nam▒
+    tasks:                                                                     ▒
+                                 : Task 3.1                                    ▒
+                                 : Task 3.2                                    ▒
