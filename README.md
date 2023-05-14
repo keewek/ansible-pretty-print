@@ -1,5 +1,8 @@
 # ansible-pretty-print
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/keewek/ansible-pretty-print.svg)](https://pkg.go.dev/github.com/keewek/ansible-pretty-print)
+[![Go Report Card](https://goreportcard.com/badge/github.com/keewek/ansible-pretty-print)](https://goreportcard.com/report/github.com/keewek/ansible-pretty-print)
+
 CLI tool that pretty-prints an output of `ansible-playbook --list-tasks` command.
 
 [![](assets/docs/830_table_dos.png)](https://raw.githubusercontent.com/keewek/ansible-pretty-print/main/assets/docs/table_dos.png)
