@@ -61,11 +61,11 @@ Pretty-print Ansible's --list-tasks output
 
     **Columns output:**
 
-    `lt-ansible-playbook --list-tasks path/to/playbook -i path/to/inventory`
+    `lt-ansible-playbook path/to/playbook -i path/to/inventory`
     
     **Table output:**
 
-    `ltt-ansible-playbook --list-tasks path/to/playbook -i path/to/inventory`
+    `ltt-ansible-playbook path/to/playbook -i path/to/inventory`
 
 ## Features
 
